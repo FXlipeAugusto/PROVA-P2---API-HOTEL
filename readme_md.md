@@ -46,13 +46,16 @@ Antes de iniciar, certifique-se de ter instalado na sua máquina:
    CREATE DATABASE IF NOT EXISTS hotel;
 
    USE hotel;
-
+   
    CREATE TABLE IF NOT EXISTS hospedes (
        id INT AUTO_INCREMENT PRIMARY KEY,
-       nome VARCHAR(255) NOT NULL,
+       nome VARCHAR(100) NOT NULL,
        documento VARCHAR(50) NOT NULL,
-       telefone VARCHAR(50) NOT NULL
+       telefone VARCHAR(20)
    );
+   
+   SELECT * FROM hospedes;
+
    ```
 
 4. **Configure as Variáveis de Ambiente:**
