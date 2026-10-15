@@ -1,3 +1,20 @@
+/*
+CREATE DATABASE IF NOT EXISTS hotel;
+
+USE hotel;
+
+CREATE TABLE IF NOT EXISTS hospedes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    documento VARCHAR(50) NOT NULL,
+    telefone VARCHAR(20)
+);
+
+SELECT * FROM hospedes;
+
+*/
+
+
 const express = require('express');
 const router = express.Router();
 // Importar a conexão criada no mysql.js
