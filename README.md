@@ -239,6 +239,3 @@ api-hotel/
 
 ---
 
-## 📝 Licença
-
-Este projeto está sob a licença **ISC**. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
